@@ -1,0 +1,16 @@
+{
+	"name" : "Cocaine Drill",
+	"description" : "Faster drills for faster man",
+	"author" : "Cringe",
+	"contact" : "",
+	"version" : "0.1",
+	"updates" : [],
+	"priority" : 14,
+	"hooks" : [
+    {
+      "hook_id": "lib/units/props/timergui",
+      "script_path": "main.lua"
+    }
+	]
+	"blt_version" : 2,
+}
