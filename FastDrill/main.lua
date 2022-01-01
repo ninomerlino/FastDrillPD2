@@ -9,7 +9,7 @@ Hooks:PostHook(TimerGui, "set_timer_multiplier", "fastdrillStart", function(self
 			multi = 0.2
 		end
 		if self._timer and managers.network:session() and self._unit then
-			managers.network:session():send_to_peers_synched("start_timer_gui", self._unit, self._timer)
+			managers.network:session():send_to_peers_synched("start_timer_gui", self._unit, self._timer*_timer_multiplier)
 		else
 			log("no timer")
 		end
