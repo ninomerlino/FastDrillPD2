@@ -1,0 +1,10 @@
+{
+	"fd_md_t":"FastDrill options",
+	"fd_en_t":"Enable",
+	"fd_en_d":"enable FastDrill mod",
+	"fd_sm_t":"Stealth",
+	"fd_sm_d":"Set the speed modifier during a stealth gameplay",
+	"fd_lm_t":"Loud",
+	"fd_lm_d":"Set the speed modifier during a loud gameplay",
+	"fd_lobby_welcome":"Hey the host of this lobby has FastDrill mod enabled"
+}

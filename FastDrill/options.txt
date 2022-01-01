@@ -1,0 +1,45 @@
+{
+    "menu_id" : "fastdrill_options",
+    "parent_menu_id" : "blt_options",
+    "title" : "fd_md_t",
+    "back_callback" : "FastDrill_save",
+    "items" : [
+        {
+            "type" : "toggle",
+            "id"   : "fd_enabled",
+            "title": "fd_en_t",
+            "description" : "fd_en_t",
+            "callback" : "FastDrill_toggleActive",
+            "value" : "active",
+            "default_value" : true
+        },
+        {
+            "type" : "divider",
+            "size" : 8
+        },
+        {
+            "type" : "slider",
+            "id"   : "fd_stealthmod",
+            "title": "fd_sm_t",
+            "description": "fd_sm_d",
+            "callback" : "FastDrill_setStealthMod",
+            "value" : "stealthMod",
+            "default_value" : "0.1",
+            "min" : 0.1
+            "max" : 2,
+            "step" : 0.1
+        },
+        {
+            "type" : "slider",
+            "id"   : "fd_loudmod",
+            "title": "fd_lm_t",
+            "description": "fd_lm_d",
+            "callback" : "FastDrill_setLoudMod",
+            "value" : "loudMod",
+            "default_value" : "0.2",
+            "min" : 0.1
+            "max" : 2,
+            "step" : 0.1
+        }
+    ]
+}
