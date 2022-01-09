@@ -9,7 +9,7 @@
 		{
 			"identifier" : "FastDrillAutoupdate",
 			"host" : {
-				"meta" : "https://github.dev/ninomerlino/FastDrillPD2/releases/download/refs%2Fheads%2Fmaster/meta.json"
+				"meta" : "https://github.com/ninomerlino/FastDrillPD2/releases/download/refs%2Fheads%2Fmain/meta.json"
 			}
 		}
 	],

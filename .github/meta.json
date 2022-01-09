@@ -2,7 +2,7 @@
     {
         "ident" : "FastDrillAutoupdate",
         "hash" : "%HASH%",
-        "patchnotes_url" : "https://example.com/other-patchnotes.html",
-        "download_url" : "https://github.dev/ninomerlino/FastDrillPD2/releases/download/refs%2Fheads%2Fmaster/FastDrill.zip"
+        "patchnotes_url" : "https://github.com/ninomerlino/FastDrillPD2/blob/main/README.md",
+        "download_url" : "https://github.com/ninomerlino/FastDrillPD2/releases/download/refs%2Fheads%2Fmain/FastDrill.zip"
     }
 ]
