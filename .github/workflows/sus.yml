@@ -10,6 +10,10 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@master
+    - name: Delete Existing Release
+      uses: ame-yu/action-delete-latest-release@v2
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Archive Mod
       run: |
          .\.github\7za.exe -tzip a ".\FastDrill.zip" ".\FastDrill"
