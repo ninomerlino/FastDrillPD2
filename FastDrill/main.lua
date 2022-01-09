@@ -31,29 +31,20 @@ function FastDrill:storeConfig()
 end
 
 function FastDrill:Active()
-	if not FastDrill.config then
-		FastDrill:loadConfig()
-	elseif not FastDrill.config['active'] then
-		FastDrill:loadConfig(true)
-	end
+	if not FastDrill.config then FastDrill:loadConfig() end
+	if not FastDrill.config['active'] then FastDrill:loadConfig(true) end
 	return FastDrill.config['active']
 end
 
 function FastDrill:StealthMod()
-	if not FastDrill.config then
-		FastDrill:loadConfig()
-	elseif not FastDrill.config['stealthMod'] then
-		FastDrill:loadConfig(true)
-	end
+	if not FastDrill.config then FastDrill:loadConfig() end
+	if not FastDrill.config['stealthMod'] then FastDrill:loadConfig(true) end
 	return FastDrill.config['stealthMod']
 end
 
 function FastDrill:LoudMod()
-	if not FastDrill.config then
-		FastDrill:loadConfig()
-	elseif not FastDrill.config['loudMod'] then
-		FastDrill:loadConfig(true)
-	end
+	if not FastDrill.config then FastDrill:loadConfig() end
+	if not FastDrill.config['loudMod'] then FastDrill:loadConfig(true) end
 	return FastDrill.config['loudMod']
 end
 --localization needed for mod options

@@ -1,11 +1,18 @@
 {
-	"name" : "Cocaine Drill",
-	"description" : "Faster drills for faster man",
-	"author" : "Cringe",
-	"contact" : "",
-	"version" : "0.3",
-	"updates" : [],
+	"name" : "Fast Drill",
+	"description" : "Faster drills for faster men",
+	"author" : "ninomerlino",
+	"contact" : "https://github.dev/ninomerlino",
+	"version" : "1.0",
 	"priority" : 14,
+	"updates" : [
+		{
+			"identifier" : "FastDrillAutoupdate",
+			"host" : {
+				"meta" : "https://github.dev/ninomerlino/FastDrillPD2/releases/download/refs%2Fheads%2Fmaster/meta.json"
+			}
+		}
+	],
 	"hooks" : [
     {
       "hook_id": "lib/units/props/timergui",
